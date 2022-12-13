@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main function to generate a random number
  *
@@ -16,7 +17,7 @@ int main(void)
 	1 = n % 10;
 	if (1 > 5)
 	{
-		printf("%d and is greater than 5\n", n, 1);
+		printf("Last digit of %d is %d and is greater than 5\n", n, 1);
 	}
 	else if (1 == 0)
 	{
